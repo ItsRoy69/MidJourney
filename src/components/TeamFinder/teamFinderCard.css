@@ -1,0 +1,162 @@
+.teamfindercardbody {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: product;
+  border: 2px solid #3364ff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 20px #6d6d6d;
+  background-color: #050810;
+  position: relative;
+  z-index: 1;
+}
+
+.teamfindercardbg {
+  position: absolute;
+  opacity: 90%;
+  width: 100%;
+  height: 40vh;
+  z-index: 2;
+}
+
+.teamfindercontent {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 40px;
+}
+
+.teamfindercontent h1 {
+  background: var(--btn-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  font-size: 50px;
+  padding-bottom: 25px;
+  font-family: "Lexend", sans-serif;
+}
+
+.teamfinderform {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.teamfindercontent .inputbox {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 10px;
+  height: 50px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid rgba(220, 220, 220, 0.632);
+  background-color: #b4b4b4 0f;
+}
+.teamfindercontent .inputbox input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  padding-left: 4px;
+  color: var(--text-secondary);
+  font-size: 18px;
+}
+
+.teamfindercontent .inputbox input:focus {
+  color: var(--text-secondary);
+}
+
+.teamfinderinputs {
+  display: flex;
+  flex-direction: row;
+  font-family: "Lexend", sans-serif;
+  align-items: center;
+  justify-content: left;
+}
+
+.teamfinderinputs > h4 {
+  font-size: 24px;
+  color: var(--text-secondary);
+}
+
+.teamfinderskillhead {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lexend", sans-serif;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+}
+
+.teamfinderskillhead > h4 {
+  font-size: 24px;
+  color: var(--text-secondary);
+}
+
+.skill-body {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.teamfinderskillhead {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+}
+
+.teamfinderyear {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lexend", sans-serif;
+  align-items: left;
+  text-align: left;
+  justify-content: left;
+  padding-bottom: 24px;
+}
+
+.teamfinderyear > h4 {
+  font-size: 24px;
+  color: var(--text-secondary);
+  padding-bottom: 20px;
+}
+
+.skill-box {
+  width: auto;
+  height: auto;
+  background-color: #c7c3c3;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.skill-box:hover {
+  cursor: pointer;
+  background-color: #3364ff;
+  color: white;
+}
+
+#year-selected {
+  background-color: #3364ff;
+  color: white;
+}
+
+.teamsubmit {
+  padding: 10px 24px;
+  background: linear-gradient(123.28deg, #306bff 4.69%, #040e3a 289.88%);
+  color: var(--text-primary);
+  border-radius: 5px;
+  width: 100px;
+  font-family: "Lexend", sans-serif;
+}
+
+.teamsubmit:hover {
+  box-shadow: 3px 2px 12px rgba(66, 164, 255, 0.24);
+  transition: 0.3s;
+  cursor: pointer;
+}

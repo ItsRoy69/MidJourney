@@ -1,0 +1,122 @@
+.feed-card {
+  margin-top: 20px;
+  min-width: 600px;
+  background-color: var(--app-primary);
+  border-radius: 10px;
+  padding: 10px 10px;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+  position: relative;
+  font-family: "Lexend", sans-serif;
+  font-style: normal;
+}
+
+.delete-card {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  color: #ffffff;
+  right: 70px;
+  background-image: url("../../assets/icons/delete.png");
+  cursor: pointer;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.delete-card:hover {
+  cursor: pointer;
+  background-image: url("../../assets/icons/delete2.png");background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.feed_avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #dde4f8;
+}
+
+.feed-cardright {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.feed-name {
+  font-size: 16px;
+  margin-bottom: 2px;
+  color: #ffffff;
+  font-family: "Lexend", sans-serif;
+  font-weight: 400;
+}
+
+.feed-time {
+  font-size: 12px;
+  color: #828282;
+}
+
+.feed-description {
+  margin-top: 10px;
+}
+
+.feed-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  color: #3364ff;
+}
+
+.feedskills,
+.feed-yoe {
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #828282;
+}
+
+.feedskills {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.feed-cardbottom {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-cardbtn {
+  padding: 10px 10px;
+  background: linear-gradient(123.28deg, #306bff 4.69%, #040e3a 289.88%);
+  color: var(--text-primary);
+  border-radius: 5px;
+}
+
+.feed-cardbtn:hover {
+  box-shadow: 3px 2px 12px rgba(66, 164, 255, 0.24);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.feed-cardlike {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+
+.feed-cardlike p{
+  color: var(--text-primary);
+}
+
+
+.chipscontent {
+    font-weight: 100;
+}

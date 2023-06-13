@@ -1,0 +1,63 @@
+.card {
+  font-family: Lexend, sans-serif;
+  font-style: normal;
+  width: 300px;
+  width: 300px;
+  padding: 20px;
+  background: linear-gradient(
+    253.09deg,
+    rgba(25, 36, 59, 0.25) -7.53%,
+    rgba(208, 208, 208, 0.085) 97.04%
+  );
+  border-radius: 10px;
+  border: 1px solid rgba(208, 208, 208, 0.085);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.card h1 {
+  margin-bottom: 20px;
+  background: linear-gradient(
+    79.66deg,
+    #676767 5%,
+    #cbcbcb 59.72%,
+    #ffffff 88.3%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card .time {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.card .time-txt {
+  font-size: 14px;
+  color: #818181;
+}
+
+.card .status {
+  margin-top: 30px;
+  font-size: 16px;
+  color: rgb(20, 223, 138);
+}
+
+.participate-btn {
+  padding: 10px 24px;
+  background: linear-gradient(123.28deg, #306bff 4.69%, #040e3a 289.88%);
+  color: var(--text-primary);
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.2s;
+  cursor: pointer;
+  width: 80px;
+}
+
+.participate-btn:hover {
+  box-shadow: 3px 2px 12px rgba(66, 164, 255, 0.24);
+  transition: 0.3s;
+  cursor: pointer;
+}

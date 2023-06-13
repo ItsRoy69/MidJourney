@@ -1,0 +1,20 @@
+.chipscontent{
+    width: auto;
+    height: 30px;
+    padding: 2px 10px;
+    background: linear-gradient(123.28deg, #306bff 4.69%, #040e3a 289.88%);
+    color: var(--text-primary);
+    font-family:"Lexend", sans-serif;
+    font-size: 20px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chipscontent:hover{
+    cursor: pointer;
+    background-color: #3364FF;
+    color: white;
+
+}
